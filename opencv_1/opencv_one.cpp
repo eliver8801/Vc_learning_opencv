@@ -18,6 +18,7 @@ int main()
 	const char *pstrWindowsSrcTitle = "原图(http://blog.csdn.net/MoreWindows)";
 	const char *pstrWindowsToolBar = "Threshold";
 	///////////////////////////////////////////////
+	/////////////////////////////////////////////
 	//从文件中载入图像的灰度图CV_LOAD_IMAGE_GRAYSCALE - 灰度图
 	g_pSrcImage = cvLoadImage(pstrImageName, CV_LOAD_IMAGE_GRAYSCALE);
 	g_pCannyImg = cvCreateImage(cvGetSize(g_pSrcImage), IPL_DEPTH_8U, 1);
